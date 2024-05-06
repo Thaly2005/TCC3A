@@ -58,3 +58,33 @@ nav{
 .ul li a{
     color: white;
 }
+/* main */
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.main-text{
+    width: 40%;
+    color: white;
+}
+.main-text h1{
+    font-size: 4mre;
+    width: 600px;
+}
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-img{
+    width: 40%;
+}
+.main-img img{
+    width: 100%;
+}
+/* menu ícon */
+.menu-icon{
+    display: none;
+}
