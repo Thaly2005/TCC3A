@@ -29,6 +29,11 @@ body {
     padding: 0 5%;
     margin: 0 auto;
 }
+
+section, footer{
+    padding: 30px;
+}
+
 .btn-gradient{
     padding: 10px 25px;
     color: white;
@@ -95,6 +100,32 @@ main .container{
 .resultados{
     background: #FA8607;
 }
+.resultados .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.resultados .resultados-text{
+    color: white;
+    font-size:  1.6rem;
+    font-weight: 600px;
+    width: 40%;
+}
+.resultados .resultados-numero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.resultados .resultados-numero p{
+    text-align: center;
+    margin: 0 30px;
+    font-size: 20px;
+}
+.resultados .resultados-numero p span{
+    font-size: 30px;
+    font-weight: 1000px ;
+}
 /* responsivo */
 @media (max-whidth: 960px){
     .menu-icon{
@@ -108,5 +139,26 @@ main .container{
         height: 100%;
         left: 100%;
     }
+    .ul li{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .ul.ativo{
+        left: 0;
+    }
+    main .container{
+        flex-direction: column;
+    }
+    main .container .main-img, 
+    main .container .main-text{
+        width: 100%;
+        text-align: center;
+    }
+    main .container .main-text h1{
+        font-size: 4rem;
+    }
+    main .container .main-text div{
+        justify-content: center;
+    }    
 }
 
