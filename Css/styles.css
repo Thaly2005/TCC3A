@@ -128,6 +128,7 @@ main .container{
     font-weight: 1000px ;
 }
 /* section diferencias */
+
 .diferencias .container {
     display: flex;
     justify-content: space-between;
@@ -149,6 +150,33 @@ main .container{
 .diferencias .card .titulo{
     margin: 13px 0;
     font-weight: 600;
+}
+/* section casa */
+.casa .container{
+    display: flex;
+    align-items: center;
+}
+.casa .casa-img{
+    width: 50%;
+}
+.casa .casa-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.casa .casa-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.casa .casa-text h2{
+    font-size: 2.5em;
+}
+.casa .casa-text p{
+    margin: 20px 0;
+    color: var(--color-p);
+}
+.casa .casa-text p b{
+    color: black;
+    font-size: 25px;
 }
 /* responsivo */
 @media (max-width: 960px){
@@ -200,6 +228,14 @@ main .container{
     }
     .diferencias .card{
         width: 100%;
+    }
+    .casa .container{
+        flex-direction: column-reverse;
+    }
+    .casa .casa-text,
+    .casa .casa-img{
+        width: 100%;
+        text-align: center;
     }
 }
 @media (max-width:440px){
