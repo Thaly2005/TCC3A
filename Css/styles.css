@@ -116,6 +116,7 @@ main .container{
     align-items: center;
     justify-content: center;
     color: white;
+    margin-top: 30px;
 }
 .resultados .resultados-numero p{
     text-align: center;
@@ -126,8 +127,31 @@ main .container{
     font-size: 30px;
     font-weight: 1000px ;
 }
+/* section diferencias */
+.diferencias .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.diferencias .card{
+    width: 30%;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.diferencias .card:hover{
+    box-shadow: 0px 10px 67px 8px #e6e6fa85;
+}
+.diferencias .card img{
+    width: 60px;
+}
+.diferencias .card .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+}
 /* responsivo */
-@media (max-whidth: 960px){
+@media (max-width: 960px){
     .menu-icon{
         display: block;
     }
@@ -160,5 +184,30 @@ main .container{
     main .container .main-text div{
         justify-content: center;
     }    
+    .resultados .container{
+        flex-direction: column;
+    }
+    .resultados .resultados-text,
+    .resultados .resultados-numero{
+        width: 100px;
+        text-align: center;
+    }
+    .resultados-numero{
+        margin-top: 30px;
+    }
+    .diferencias .container{
+        flex-direction: column;
+    }
+    .diferencias .card{
+        width: 100%;
+    }
 }
+@media (max-width:440px){
+    .resultados .resultados-numero{
+        flex-direction: column;
+    }
 
+    main .container .main-text h1{
+        font-size: 3rem;
+    }
+}
