@@ -1,7 +1,12 @@
+[Projeto de TCC- Home Digital site]
 [Descrição](#descri%C3%A7%C3%A3o) 
+[Introdução]
+[Funcionalidades]
+[Tecnologias Utilizadas]
+[Fontes Consultadas]
 [Autores](#autores)
 
-# Projeto de TCC- Home Design site
+# Projeto de TCC- Home Digital site
 
 ## Descrição:
  Nossa proposta é um site bem completo (mas não totalmente) que traz algumas funções facilitadoras para todos os tipos de pessoa, quando o assunto é construção ou reforma, aqui está a ideia base do planejamento de nosso site: 
